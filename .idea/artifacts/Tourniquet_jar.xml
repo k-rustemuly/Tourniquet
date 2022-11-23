@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Tourniquet:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Tourniquet_jar</output-path>
+    <root id="archive" name="Tourniquet.jar">
+      <element id="module-output" name="Tourniquet" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.50.Final/netty-all-4.1.50.Final.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.30/mysql-connector-java-8.0.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.19.4/protobuf-java-3.19.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javastruct-0.1.jar" path-in-jar="/" />
+      <element id="library" level="project" name="io.netty.all" />
+      <element id="library" level="project" name="javastruct-0.1" />
+      <element id="library" level="project" name="mysql.connector.java" />
+    </root>
+  </artifact>
+</component>
