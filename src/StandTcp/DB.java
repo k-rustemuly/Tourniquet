@@ -4,7 +4,7 @@ import java.sql.*;
 public class DB {
     final String DB_URL = "jdbc:mysql://localhost/ss";
     final String USER = "root";
-    final String PASS = "";
+    final String PASS = "password";
 
     public Statement con(){
         try{
