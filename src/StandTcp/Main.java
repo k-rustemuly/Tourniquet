@@ -227,13 +227,13 @@ class AllClass {
             TCPController Cntrl = AllController.GetController();
             if(eventType.equals(ENTRY) || eventType.equals(EXIT))
             {
-                if(isHaveInBlackList(cardNo)){
-                    //Карточку добавили в черный список. Надо удалить из памяты устройствы
-                    index = findIndex(cardNo);
-                    CardNumber = "0";
-                    endTime = LocalDateTime.now();
-                    updateCard();
-                }
+//                if(isHaveInBlackList(cardNo)){
+//                    //Карточку добавили в черный список. Надо удалить из памяты устройствы
+//                    index = findIndex(cardNo);
+//                    CardNumber = "0";
+//                    endTime = LocalDateTime.now();
+//                    updateCard();
+//                }
             }
             if(eventType.equals("1") || eventType.equals("3")){
                 //System.out.println(cardNo);
